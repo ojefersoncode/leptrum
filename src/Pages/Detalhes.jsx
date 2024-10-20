@@ -1,7 +1,7 @@
 import React from 'react';
 import Navback from '../components/Navback';
-import Cardinfo from '../components/Cardinfo';
-import Clip from '../components/Clip'
+import Cardinfo from '../components/Cardinfo/Cardinfo';
+import Clip from '../components/Clip/Clip'
 import Footer from '../components/Footer/Footer'
 
 const Detalhes = () => {
@@ -11,6 +11,7 @@ const Detalhes = () => {
       <Cardinfo />
       <Clip />
       <Footer />
+      
     </>
   );
 };
