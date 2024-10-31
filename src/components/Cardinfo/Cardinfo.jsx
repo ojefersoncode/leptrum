@@ -10,7 +10,8 @@ const Cardinfo = () => {
       <div className="max-w-full p-4 border border-green-400 rounded-2xl m-4">
         <a href="#">
           <img className="rounded-lg border border-green-700 w-full"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaZ7675LKHyRW3fGe8sPrTn1gZGH54Uh3VSqVi0fMMzR2eEvQ2fPTdFh8&s=10"
+            src="https://encrypted-tbn0.gstatic.com/
+            images?q=tbn:ANd9GcQaZ7675LKHyRW3fGe8sPrTn1gZGH54Uh3VSqVi0fMMzR2eEvQ2fPTdFh8&s=10"
             alt="" />
         </a>
         <div className="pb-4 mt-4">

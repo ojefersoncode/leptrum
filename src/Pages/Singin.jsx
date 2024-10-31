@@ -1,21 +1,25 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
+import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
 
 const Singin = () => {
   return (
     <>
 
-     <Navbar />
+      <Navbar />
       <div className="flex flex-col bg-gray-100 dark:bg-gray-800">
-        <div className="flex-grow">
+        <div className="flex-grow justify-center justify-items-center">
           <div className="w-full max-w-screen-xl bg-white rounded-lg shadow-md dark:bg-gray-800 p-8">
             <div className="flex justify-center mb-6">
-              <img
-                src="/public/Auth.svg" 
-                alt="Login Icon"
-                className="w-20 h-20"
-              />
+
+              <div className='text-[#07ff6a]'>
+                <svg xmlns="http://www.w3.org/2000/svg" width="74" height="74" viewBox="0 0 24 24"
+                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" class="lucide lucide-contact"><path d="M16 2v2" />
+                  <path d="M7 22v-2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2" />
+                  <path d="M8 2v2" /><circle cx="12" cy="11" r="3" /><rect x="3" y="4" width="18" height="18" rx="2" /></svg>
+              </div>
+
             </div>
             <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">Cadastre-se</h2>
             <form>
@@ -41,7 +45,7 @@ const Singin = () => {
                   required
                 />
               </div>
-                            <div className="mb-4">
+              <div className="mb-4">
                 <label htmlFor=" password" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Confirmar senha</label>
                 <input
                   type="confirm password"
@@ -66,7 +70,7 @@ const Singin = () => {
             </form>
           </div>
         </div>
-       <Footer />
+        <Footer />
       </div>
     </>
   );

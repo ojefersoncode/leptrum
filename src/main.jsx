@@ -15,10 +15,10 @@ const Main = () => {
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/login" element={<Login />} />
-         <Route path="/singin" element={<Singin />} />
+        <Route path="/singin" element={<Singin />} />
         <Route path="/detalhes" element={<Detalhes />} />
-      <Route path="/checkout" element={<Checkout />} />
-      <Route path="/criar" element={<Criar />} />
+        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/criar" element={<Criar />} />
       </Routes>
     </Router>
   );

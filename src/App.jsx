@@ -1,8 +1,9 @@
 import React from 'react';
-import NavbarLogado from './components/NavbarLogado';
-import Cards from './components/Cards';
+import NavbarLogado from './components/NavbarLogado/NavbarLogado';
+import Cards from './components/Cards/Cards';
 import Footer from './components/Footer/Footer';
 import SearchBar from './components/SearchBar/SearchBar';
+import BadageFilter from './components/badageFilter/BadageFilter';
 
 function App() {
   return (
@@ -13,7 +14,11 @@ function App() {
        <SearchBar />
       </div>
 
-      <div className='m-2'>
+      <div  className='flex'>
+        <BadageFilter />
+      </div>
+
+      <div className="flex">
           <Cards />
       </div>
 

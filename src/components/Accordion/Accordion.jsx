@@ -16,7 +16,8 @@ const Accordion = () => {
       <h2 id="accordion-collapse-heading-1">
         <button
           type="button"
-          className="flex items-center justify-between w-full p-5 font-medium text-gray-500 border border-b-0 border-green-400 rounded-t-xl  dark:border-green-700 dark:text-gray-400 gap-3"
+          className="flex items-center justify-between w-full p-5 font-medium text-gray-500
+          border border-b-0 border-green-400 rounded-t-xl  dark:border-green-700 dark:text-gray-400 gap-3"
           onClick={() => toggleAccordion(1)}
           aria-expanded={activeTab === 1}
           aria-controls="accordion-collapse-body-1"
@@ -41,10 +42,12 @@ const Accordion = () => {
       </h2>
       <div
         id="accordion-collapse-body-1"
-        className={`${activeTab === 1 ? 'block' : 'hidden'} p-5 border border-b-0 border-green-400 dark:border-green-700`}
+        className={`${activeTab === 1 ? 'block' : 'hidden'} p-5 border border-b-0 border-green-400
+         dark:border-green-700`}
       >
         <p className="mb-2 text-gray-500 dark:text-gray-400">
-          Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.
+          Flowbite is an open-source library of interactive components built on top of
+          Tailwind CSS including buttons, dropdowns, modals, navbars, and more.
         </p>
         <p className="text-gray-500 dark:text-gray-400">
           Check out this guide to learn how to{' '}
@@ -58,7 +61,8 @@ const Accordion = () => {
       <h2 id="accordion-collapse-heading-2">
         <button
           type="button"
-          className="flex items-center justify-between w-full p-5 font-medium text-gray-500 border border-b-0 border-green-400  dark:border-green-700 dark:text-gray-400  gap-3"
+          className="flex items-center justify-between w-full p-5 font-medium text-gray-500
+           border border-b-0 border-green-400  dark:border-green-700 dark:text-gray-400  gap-3"
           onClick={() => toggleAccordion(2)}
           aria-expanded={activeTab === 2}
           aria-controls="accordion-collapse-body-2"
@@ -83,10 +87,12 @@ const Accordion = () => {
       </h2>
       <div
         id="accordion-collapse-body-2"
-        className={`${activeTab === 2 ? 'block' : 'hidden'} p-5 border border-b-0 border-green-400 dark:border-green-700`}
+        className={`${activeTab === 2 ? 'block' : 'hidden'} p-5 border border-b-0 border-green-400
+         dark:border-green-700`}
       >
         <p className="mb-2 text-gray-500 dark:text-gray-400">
-          Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.
+          Flowbite is first conceptualized and designed using the Figma software so everything
+          you see in the library has a design equivalent in our Figma file.
         </p>
         <p className="text-gray-500 dark:text-gray-400">
           Check out the{' '}
@@ -100,7 +106,8 @@ const Accordion = () => {
       <h2 id="accordion-collapse-heading-3">
         <button
           type="button"
-          className="flex items-center justify-between w-full p-5 font-medium text-gray-500 border border-green-400 rounded-b-xl dark:border-green-700 dark:text-gray-400   gap-3"
+          className="flex items-center justify-between w-full p-5 font-medium text-gray-500 
+          border border-green-400 rounded-b-xl dark:border-green-700 dark:text-gray-400   gap-3"
           onClick={() => toggleAccordion(3)}
           aria-expanded={activeTab === 3}
           aria-controls="accordion-collapse-body-3"
@@ -128,10 +135,12 @@ const Accordion = () => {
         className={`${activeTab === 3 ? 'block' : 'hidden'} p-5 border   border-green-400 dark:border-green-700`}
       >
         <p className="mb-2 text-gray-500 dark:text-gray-400">
-          The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product.
+          The main difference is that the core components from Flowbite are open source
+          under the MIT license, whereas Tailwind UI is a paid product.
         </p>
         <p className="mb-2 text-gray-500 dark:text-gray-400">
-          Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.
+          Another difference is that Flowbite relies on smaller and standalone components,
+          whereas Tailwind UI offers sections of pages.
         </p>
         <p className="text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
         <ul className="ps-5 text-gray-500 list-disc dark:text-gray-400">
@@ -141,7 +150,8 @@ const Accordion = () => {
             </a>
           </li>
           <li>
-            <a href="https://tailwindui.com/" rel="nofollow" className="text-blue-600 dark:text-blue-500 hover:underline">
+            <a href="https://tailwindui.com/" rel="nofollow" className="text-blue-600
+             dark:text-blue-500 hover:underline">
               Tailwind UI
             </a>
           </li>

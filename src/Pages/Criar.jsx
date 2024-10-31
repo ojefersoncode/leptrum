@@ -1,7 +1,7 @@
 import React from 'react';
 import { ChevronLeft, ChevronDown, Plus, Image, Link, Info, Share } from 'lucide-react';
 import Footer from '../components/Footer/Footer';
-import NavbarLogado from '../components/NavbarLogado';
+import NavbarLogado from '../components/NavbarLogado/NavbarLogado';
 
 const Criar = () => {
   return (
@@ -9,7 +9,7 @@ const Criar = () => {
       <NavbarLogado />
       
     <div className="text-[#07ff6a] min-h-full">
-      <div className="p-4">
+      <div className="p-4 ">
         <header className="flex justify-between items-center mb-4">
           <h1 className="text-lg font-semibold">Crie seu projeto</h1>
           <button className="bg-[#07ff6a] px-3 py-1 font-bold text-[#14043b] rounded text-sm">Cancelar</button>

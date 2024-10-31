@@ -1,5 +1,5 @@
 import React from 'react';
-import Navback from '../components/Navback';
+import Navback from '../components/Navback/Navback';
 import Cardinfo from '../components/Cardinfo/Cardinfo';
 import Clip from '../components/Clip/Clip'
 import Footer from '../components/Footer/Footer'

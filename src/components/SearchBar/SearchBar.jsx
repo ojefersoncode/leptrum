@@ -6,7 +6,7 @@ const SearchBar = () => {
 
 
   return (
-        <div className="relative max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <div className="relative max-w-screen-xl flex flex-wrap items-center justify-center mx-auto p-4">
           <div className="absolute inset-y-0 start-0 flex items-center ps-6 pointer-events-none">
             <svg
               className="w-4 h-4 text-[#07ff6a]"
@@ -32,6 +32,7 @@ const SearchBar = () => {
               dark:placeholder-[#07ff6a] dark:text-[#07ff6a]"
             placeholder="Buscar..."
           />
+          
         </div>
   );
 };
