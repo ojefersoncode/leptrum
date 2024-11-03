@@ -9,10 +9,9 @@ const Navbar = () => {
 
   return (
     <nav className="border-gray-200 bg-[#14043b]">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto m-2  p-4">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="/public/Leptrum.png" className="h-8" alt="ADSTRONG Logo" />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">ADstrong</span>
+          <img src="/public/Leptrum.png" className="h-8" alt="ADSHOBBY Logo" />
         </a>
         <div className="flex md:order-2">
           <button
@@ -74,7 +73,9 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block m-1 py-2 px-3 text-[#14043b] rounded-lg hover:bg-[#14043b] md:hover:bg-[#14043b] md:hover:text-[#07ff6a] md:p-0 md:dark:hover:text-[#07ff6a] dark:text-white dark:hover:bg-[#14043b] dark:hover:text-[#07ff6a] md:dark:hover:bg-[#14043b]"
+                className="block m-1 py-2 px-3 text-[#14043b] rounded-lg hover:bg-[#14043b] md:hover:bg-[#14043b]
+                 md:hover:text-[#07ff6a] md:p-0 md:dark:hover:text-[#07ff6a] dark:text-white 
+                 dark:hover:bg-[#14043b] dark:hover:text-[#07ff6a] md:dark:hover:bg-[#14043b]"
               >
                 Ajuda e suporte
               </a>

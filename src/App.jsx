@@ -1,28 +1,20 @@
 import React from 'react';
-import NavbarLogado from './components/NavbarLogado/NavbarLogado';
-import Cards from './components/Cards/Cards';
-import Footer from './components/Footer/Footer';
-import SearchBar from './components/SearchBar/SearchBar';
-import BadageFilter from './components/badageFilter/BadageFilter';
+import NavbarLogado from './components/Navbar/Navbar';
+import LandingPage from './components/LandingPage/LandingPage';
+
 
 function App() {
   return (
     <>
+    <div className='mx-4'>
+
       <NavbarLogado />
 
-      <div>
-       <SearchBar />
-      </div>
+      <LandingPage />
 
-      <div  className='flex'>
-        <BadageFilter />
-      </div>
+    </div>
+   
 
-      <div className="flex">
-          <Cards />
-      </div>
-
-      <Footer />
     </>
   );
 }

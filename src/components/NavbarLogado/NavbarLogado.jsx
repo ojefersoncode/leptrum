@@ -20,9 +20,11 @@ const NavbarLogado = () => {
   return (
     <nav className="dark:bg-[#14043b]">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="/public/Leptrum.png" className="h-8" alt="Leptrum logo" />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">ADstrong</span>
+        <a href="#" className="flex items-center space-x-2 rtl:space-x-reverse">
+          <img src="/public/Leptrum.png" className="h-8" alt="adshobby logo" />
+          <span className="self-center text-lg font-mono whitespace-nowrap dark:text-white">
+            Monetize seu hobby
+            </span>
         </a>
 
         <div className="items-center flex">
