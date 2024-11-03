@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav className="border-gray-200 bg-[#14043b]">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto m-2  p-4">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="/public/Leptrum.png" className="h-8" alt="ADSHOBBY Logo" />
+          <img src="/public/adshobby.png" className="h-8" alt="ADSHOBBY Logo" />
         </a>
         <div className="flex md:order-2">
           <button

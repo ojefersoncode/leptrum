@@ -15,7 +15,7 @@ const Clip = () => {
     <div className="w-full max-w-full p-4">
       <div className="mb-2 flex justify-between items-center">
         <label htmlFor="website-url" className="text-sm font-medium text-gray-900 dark:text-white">
-          Compartilhe o projeto:
+          Seu link de afiliado:
         </label>
       </div>
       <div className="flex items-center">
@@ -27,7 +27,7 @@ const Clip = () => {
             id="website-url"
             type="text"
             className="bg-gray-50 border border-e-0 border-gray-300 text-gray-500 dark:text-gray-400 text-sm border-s-0 focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-[#14043b] dark:border-[#07ff6a] dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-[#07ff6a]"
-            value="https://leptrum.com"
+            value="https://adshobby.com/link-afiliado"
             readOnly
             disabled
           />
